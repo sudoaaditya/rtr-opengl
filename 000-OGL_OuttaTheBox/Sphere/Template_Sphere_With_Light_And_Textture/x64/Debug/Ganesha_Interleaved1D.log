@@ -1,0 +1,4 @@
+﻿  Source_2.cpp
+E:\OpenGL\Template_Sphere_With_Light_And_Textture\vmath.h(996,13): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+E:\OpenGL\Template_Sphere_With_Light_And_Textture\Source_2.cpp(901,13): warning C4244:  'argument': conversion from 'float' to 'int', possible loss of data
+  Ganesha_Interleaved1D.vcxproj -> E:\OpenGL\Template_Sphere_With_Light_And_Textture\x64\Debug\Ganesha_Interleaved1D.exe

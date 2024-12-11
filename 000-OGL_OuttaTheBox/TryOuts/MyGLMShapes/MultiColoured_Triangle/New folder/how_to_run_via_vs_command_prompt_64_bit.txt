@@ -1,0 +1,14 @@
+For texture
+
+rc.exe Name of rc file
+Gives res file
+
+cl.exe /c /EHsc Name of cpp
+Gives obj
+
+link.exe "Name of exe" "Name of res" /SUBSYSTEM:WINDOWS
+Gives exe 
+//-------------------------------------------------------------
+
+For normal codes
+cl.exe /EHsc Name of cpp

@@ -1,0 +1,7 @@
+#include"ResHead.h"
+
+MyWav WAVE VandeMataram.wav
+
+MyIcon ICON India.ico
+
+

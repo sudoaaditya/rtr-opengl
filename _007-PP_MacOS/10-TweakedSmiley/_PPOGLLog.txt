@@ -1,0 +1,13 @@
+Log File Created Successfully!!..
+
+Pixel Format Acquired!!..
+OpenGL Context Acquired!!..
+
+OpenGLVersion:: 4.1 INTEL-12.9.22
+ ShadingLanguageVersion:: 4.10
+
+Vertex Shader Compiled Successfully!!..
+Fragement ShaderCompiled Successfully!!..
+Program Linkage Successful!!
+Smiley Texture Loaded Successfully!
+Log File Closed Successfully!!..

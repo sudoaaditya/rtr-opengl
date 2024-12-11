@@ -1,0 +1,25 @@
+Log File Created Successfully!!..
+
+Pixel Format Acquired!!..
+OpenGL Context Acquired!!..
+
+OpenGLVersion:: 4.1 INTEL-12.9.22
+ ShadingLanguageVersion:: 4.10
+
+Vertex Shader Compiled Successfully!!..
+Fragement ShaderCompiled Successfully!!..
+Program Linkage Successful!!
+fdAB = 2.236068
+fdBC = 2.000000
+fdAC = 2.236068
+fPer =  3.236068
+fArea = 2.000000
+fRad = 0.618034
+
+
+fx1 = 0.000000	fy1 = 1.000000
+fx2 = -1.000000	fy2 = -1.000000
+fx3 = 1.000000	fy3 = -1.000000
+
+fxCoord = 0.000000	fyCord = -0.381966
+Log File Closed Successfully!!..

@@ -1,0 +1,14 @@
+OpenGL vendor string: Intel Open Source Technology Center
+OpenGL renderer string: Mesa DRI Intel(R) HD Graphics 5500 (Broadwell GT2) 
+OpenGL core profile version string: 4.5 (Core Profile) Mesa 19.0.2
+OpenGL core profile shading language version string: 4.50
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+OpenGL core profile extensions:
+OpenGL version string: 3.0 Mesa 19.0.2
+OpenGL shading language version string: 1.30
+OpenGL context flags: (none)
+OpenGL extensions:
+OpenGL ES profile version string: OpenGL ES 3.1 Mesa 19.0.2
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.10
+OpenGL ES profile extensions:

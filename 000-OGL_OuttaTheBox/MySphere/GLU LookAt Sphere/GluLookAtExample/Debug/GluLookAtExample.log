@@ -1,0 +1,4 @@
+﻿  source.cpp
+d:\openggl\2018 batch\anantha\glu lookat sphere\source.cpp(323): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\openggl\2018 batch\anantha\glu lookat sphere\source.cpp(333): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  GluLookAtExample.vcxproj -> D:\OpengGL\2018 Batch\Anantha\GLU LookAt Sphere\GluLookAtExample\Debug\GluLookAtExample.exe

@@ -1,0 +1,16 @@
+File created Successfully!!..
+
+Choose Pixel Format Successful!!..	{Index = 14}
+SetPixelFormat Successful!
+wglCreateContext Successsful!!..
+wglMakeCurrent Successful!.
+glewInit Successful!..
+Vertex Shader Compiled Successfully!!..
+Fragement ShaderCompiled Successfully!!..
+Program Linkage Successful!!
+Marble Texture Loaded Successful!!..
+Initialization Successful!!!...
+Shader: 1
+Shader: 2
+
+File Closed Successfully!!..

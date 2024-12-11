@@ -1,0 +1,16 @@
+ChoosePixelFormat Successful !!..(Indx = 5)
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurrent Successful!!..
+initialize Successful!!..
+
+Distances
+fdAB = 1.118034	fdBC = 1.000000	fdAC = 1.118034
+SemiPermeter = 1.618034
+Area Of Triangles = 0.500000
+Radius Of InCircle = 0.309017
+Origin Of Incircle
+X Coord = 0.000000
+Y Coord = -0.190983
+
+File Closed Successfully..

@@ -1,0 +1,273 @@
+( X:0, Y:0 )
+Vsisted0
+( X:0, Y:1 )
+Vsisted0
+( X:0, Y:2 )
+Vsisted0
+( X:0, Y:3 )
+Vsisted0
+( X:0, Y:4 )
+Vsisted0
+( X:1, Y:0 )
+Vsisted0
+( X:1, Y:1 )
+Vsisted0
+( X:1, Y:2 )
+Vsisted0
+( X:1, Y:3 )
+Vsisted0
+( X:1, Y:4 )
+Vsisted0
+( X:2, Y:0 )
+Vsisted0
+( X:2, Y:1 )
+Vsisted0
+( X:2, Y:2 )
+Vsisted0
+( X:2, Y:3 )
+Vsisted0
+( X:2, Y:4 )
+Vsisted0
+( X:3, Y:0 )
+Vsisted0
+( X:3, Y:1 )
+Vsisted0
+( X:3, Y:2 )
+Vsisted0
+( X:3, Y:3 )
+Vsisted0
+( X:3, Y:4 )
+Vsisted0
+( X:4, Y:0 )
+Vsisted0
+( X:4, Y:1 )
+Vsisted0
+( X:4, Y:2 )
+Vsisted0
+( X:4, Y:3 )
+Vsisted0
+( X:4, Y:4 )
+Vsisted0
+( X:5, Y:0 )
+Vsisted0
+( X:5, Y:1 )
+Vsisted0
+( X:5, Y:2 )
+Vsisted0
+( X:5, Y:3 )
+Vsisted0
+( X:5, Y:4 )
+Vsisted0
+( X:6, Y:0 )
+Vsisted0
+( X:6, Y:1 )
+Vsisted0
+( X:6, Y:2 )
+Vsisted0
+( X:6, Y:3 )
+Vsisted0
+( X:6, Y:4 )
+Vsisted0
+( X:7, Y:0 )
+Vsisted0
+( X:7, Y:1 )
+Vsisted0
+( X:7, Y:2 )
+Vsisted0
+( X:7, Y:3 )
+Vsisted0
+( X:7, Y:4 )
+Vsisted0
+( X:8, Y:0 )
+Vsisted0
+( X:8, Y:1 )
+Vsisted0
+( X:8, Y:2 )
+Vsisted0
+( X:8, Y:3 )
+Vsisted0
+( X:8, Y:4 )
+Vsisted0
+( X:9, Y:0 )
+Vsisted0
+( X:9, Y:1 )
+Vsisted0
+( X:9, Y:2 )
+Vsisted0
+( X:9, Y:3 )
+Vsisted0
+( X:9, Y:4 )
+Vsisted0
+_________________________________________________
+( X:0, Y:0 )
+Vsisted1
+Ind:5
+Ind:1
+Rand:1
+( X:0, Y:1 )
+Vsisted1
+Ind:0
+Ind:6
+Ind:2
+Rand:1
+( X:0, Y:2 )
+Vsisted1
+Ind:1
+Ind:7
+Ind:3
+Rand:0
+( X:1, Y:2 )
+Vsisted1
+Ind:6
+Ind:12
+Ind:8
+Ind:2
+Rand:1
+( X:1, Y:3 )
+Vsisted1
+Ind:7
+Ind:13
+Ind:9
+Ind:3
+Rand:2
+( X:2, Y:3 )
+Vsisted1
+Ind:12
+Ind:18
+Ind:14
+Ind:8
+Rand:1
+( X:2, Y:4 )
+Vsisted1
+Ind:13
+Ind:19
+Ind:9
+Rand:0
+( X:3, Y:4 )
+Vsisted1
+Ind:18
+Ind:24
+Ind:14
+Rand:0
+( X:4, Y:4 )
+Vsisted1
+Ind:23
+Ind:29
+Ind:19
+Rand:0
+( X:5, Y:4 )
+Vsisted1
+Ind:28
+Ind:34
+Ind:24
+Rand:0
+( X:6, Y:4 )
+Vsisted1
+Ind:33
+Ind:39
+Ind:29
+Rand:1
+( X:1560823179, Y:-326412861 )
+Vsisted106
+Itr : 11
+( X:0, Y:0 )
+Vsisted1
+( X:0, Y:1 )
+Vsisted1
+( X:0, Y:2 )
+Vsisted1
+( X:0, Y:3 )
+Vsisted0
+( X:0, Y:4 )
+Vsisted0
+( X:1, Y:0 )
+Vsisted0
+( X:1, Y:1 )
+Vsisted0
+( X:1, Y:2 )
+Vsisted1
+( X:1, Y:3 )
+Vsisted1
+( X:1, Y:4 )
+Vsisted0
+( X:2, Y:0 )
+Vsisted0
+( X:2, Y:1 )
+Vsisted0
+( X:2, Y:2 )
+Vsisted0
+( X:2, Y:3 )
+Vsisted1
+( X:2, Y:4 )
+Vsisted1
+( X:3, Y:0 )
+Vsisted0
+( X:3, Y:1 )
+Vsisted0
+( X:3, Y:2 )
+Vsisted0
+( X:3, Y:3 )
+Vsisted0
+( X:3, Y:4 )
+Vsisted1
+( X:4, Y:0 )
+Vsisted0
+( X:4, Y:1 )
+Vsisted0
+( X:4, Y:2 )
+Vsisted0
+( X:4, Y:3 )
+Vsisted0
+( X:4, Y:4 )
+Vsisted1
+( X:5, Y:0 )
+Vsisted0
+( X:5, Y:1 )
+Vsisted0
+( X:5, Y:2 )
+Vsisted0
+( X:5, Y:3 )
+Vsisted0
+( X:5, Y:4 )
+Vsisted1
+( X:6, Y:0 )
+Vsisted0
+( X:6, Y:1 )
+Vsisted0
+( X:6, Y:2 )
+Vsisted0
+( X:6, Y:3 )
+Vsisted0
+( X:6, Y:4 )
+Vsisted1
+( X:7, Y:0 )
+Vsisted0
+( X:7, Y:1 )
+Vsisted0
+( X:7, Y:2 )
+Vsisted0
+( X:7, Y:3 )
+Vsisted0
+( X:7, Y:4 )
+Vsisted0
+( X:8, Y:0 )
+Vsisted0
+( X:8, Y:1 )
+Vsisted0
+( X:8, Y:2 )
+Vsisted0
+( X:8, Y:3 )
+Vsisted0
+( X:8, Y:4 )
+Vsisted0
+( X:9, Y:0 )
+Vsisted0
+( X:9, Y:1 )
+Vsisted0
+( X:9, Y:2 )
+Vsisted0
+( X:9, Y:3 )
+Vsisted0
+( X:9, Y:4 )
+Vsisted0
+_________________________________________________

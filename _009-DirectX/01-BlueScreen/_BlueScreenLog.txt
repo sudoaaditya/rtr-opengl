@@ -1,0 +1,13 @@
+Log File Created Successfully!!..
+
+D3D11CreateDeviceAndSwapChain Scuuessful!.
+ And the Chosen Driver is Of	Hardware Type!
+And the Supported Heighest Feature Level is	11.0 
+D3D11Device:  CreateRenderTargetView Sceesssful!.
+Resize Sceesssful!.
+Initialization Successful!.
+D3D11Device:  CreateRenderTargetView Sceesssful!.
+Resize Succeeded!.
+Unitialization Sceesssful!.
+
+Log File Closed Sceesssful!.

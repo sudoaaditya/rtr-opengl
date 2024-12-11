@@ -1,0 +1,9 @@
+﻿  Source_2.cpp
+c:\users\anant\desktop\saturn_windows\vmath.h(996): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+Source_2.cpp(901): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  13 of 53 functions (24.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Ganesha_Interleaved1D.vcxproj -> C:\Users\anant\Desktop\Saturn_Windows\x64\Release\Ganesha_Interleaved1D.exe

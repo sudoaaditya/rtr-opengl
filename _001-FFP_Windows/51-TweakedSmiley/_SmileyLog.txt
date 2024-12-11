@@ -1,0 +1,9 @@
+File Created Successfully!..
+
+ChoosePixelFormat Successful!!.
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurent Successful!!../nTextures Loaded Successfuly!!..
+Initialization Succesful!!..
+
+Log Closed Successfully!!..

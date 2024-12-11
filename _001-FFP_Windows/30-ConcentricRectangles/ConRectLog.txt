@@ -1,0 +1,9 @@
+Log Created Successfully!!..
+
+ChoosePixelFormat Successful!!..(Index = 5)
+SetPixelFormat SuccessFul!!..
+wglCreateContext SuccessFul!!..
+wglMakeCurrent SuccessFul!!..
+Initializtion Successeded!!..
+
+File Closed Successfully!!..

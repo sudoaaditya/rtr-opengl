@@ -1,0 +1,32 @@
+Log File Created Successfully!!..
+
+D3D11CreateDeviceAndSwapChain Scuuessful!.
+ And the Chosen Driver is Of	Hardware Type!
+And the Supported Heighest Feature Level is	11.0 
+Vertex Shader Compilation Successful!.
+ID3D11Device::CreateVertexShader Successful!!.
+Fragment Shader Compilation Successful!.
+ID3D11Device::CreatePixelShader Successful!!.
+ID3D11Device::CreateInputLayout Successful!!.
+ID3D11Device::CreateBuffer For Vertex Buffer For Cube Position Successful!!.
+ID3D11Device::CreateBuffer For Vertex Buffer For Cube Texture Successful!!.
+ID3D11Device::CreateBuffer For Vertex Buffer For Pyramid Position Successful!!.
+ID3D11Device::CreateBuffer For Vertex Buffer For Pyramid Texture Successful!!.
+ID3D11Device::CreateBuffer For Constant Buffer Successful!!.
+ID3D11Device::CreateRasterizerState Successful!!.
+CreateWICTextureFromFile In loadD3DTexture Successful!!.
+loadD3DTexture for Pyramid Texture Successful!!.
+ID3D11Device::CreateSamplerState for Pyramid Texture Successful!!.
+CreateWICTextureFromFile In loadD3DTexture Successful!!.
+loadD3DTexture for Cube Texture Successful!!.
+ID3D11Device::CreateSamplerState for Cube Texture Successful!!.
+D3D11Device:  CreateRenderTargetView Sceesssful!.
+D3D11Device:  CreateDepthStencilView Sceesssful!.
+WarmUP Resize Sceesssful!.
+Initialization Successful!.
+D3D11Device:  CreateRenderTargetView Sceesssful!.
+D3D11Device:  CreateDepthStencilView Sceesssful!.
+Resize Succeeded!.
+Unitialization Sceesssful!.
+
+Log File Closed Sceesssful!.

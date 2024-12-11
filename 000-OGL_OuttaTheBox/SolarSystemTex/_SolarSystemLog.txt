@@ -1,0 +1,12 @@
+Log Created Successful!!
+
+ChoosePixelFormat Successful!!..	(Index = 10)
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurrent Successful!!..
+Galaxy Texture LoadedSuccessfully!!..
+Sun Texture Loaded Successfully!!..
+Earth texture Loaded Successfully!!..
+Initialization Successful!!!...
+
+File Closed Successfully..

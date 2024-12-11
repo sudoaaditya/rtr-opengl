@@ -1,0 +1,132 @@
+	modelViewMatrix = mat4::identity();
+	modelViewProjectionMatrix = mat4::identity();
+
+	//Do necessary transformation
+	modelViewMatrix = translate(-1.5f, 0.0f, -6.0f);
+
+	//Do necessary matrix multiplication
+	modelViewProjectionMatrix = perspectiveProjectionMatrix * modelViewMatrix;
+
+	//send necessary matrices to shader in respective uniforms
+	glUniformMatrix4fv(mvpUniform,
+		1,
+		GL_FALSE,
+		modelViewProjectionMatrix);
+
+	//Bind with vao (This will avoid many repeatation bindings with vbo)
+	glBindVertexArray(vao_triangle);
+
+	//Simply bind with textures if any
+
+	//draw the necessary scene
+	glDrawArrays(GL_TRIANGLES, 0, 3);
+
+
+	//unbind vao
+	glBindVertexArray(0);
+
+
+	//RECTANGLE
+	modelViewMatrix = mat4::identity();
+	modelViewProjectionMatrix = mat4::identity();
+
+	
+
+	glBindVertexArray(vao_rectangle);
+
+	modelViewMatrix = translate(2.5f, 0.0f, -6.0f);
+
+	modelViewProjectionMatrix = perspectiveProjectionMatrix* modelViewMatrix ;
+
+	glUniformMatrix4fv(mvpUniform,
+		1,
+		GL_FALSE,
+		modelViewProjectionMatrix);
+
+	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+
+	glBindVertexArray(0);
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++
+
+ const GLfloat triangleVertices[] = { 0.0f,1.0f,-3.0f,
+		-1.0f,-1.0f,-3.0f,
+		1.0f,-1.0f ,-3.0f };
+	const GLfloat triangleColor[] = {
+		1.0f,0.0f,0.0f,
+		0.0f,1.0f,0.0f,
+		0.0f,0.0f,1.0f
+	};
+
+	//VAO for triangle
+	glGenVertexArrays(1, &vao_triangle);
+	glBindVertexArray(vao_triangle);
+	//triangle position
+	glGenBuffers(1, &vbo_position_triangle);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo_position_triangle);
+
+	glBufferData(GL_ARRAY_BUFFER,
+		sizeof(triangleVertices),
+		triangleVertices,
+		GL_STATIC_DRAW);
+
+	glVertexAttribPointer(AMC_ATTRIBUTE_POSITION,
+		3,
+		GL_FLOAT,
+		GL_FALSE,
+		0,
+		NULL);
+
+	glEnableVertexAttribArray(AMC_ATTRIBUTE_POSITION);
+
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	//triangle color
+	glGenBuffers(1, &vbo_color_triangle);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo_color_triangle);
+
+	glBufferData(GL_ARRAY_BUFFER, sizeof(triangleColor), triangleColor, GL_STATIC_DRAW);
+	glVertexAttribPointer(AMC_ATTRIBUTE_COLOR, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+	glEnableVertexAttribArray(AMC_ATTRIBUTE_COLOR);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	glBindVertexArray(0);
+
+	//Rectngle
+	const GLfloat rectangleVertices[] = {
+		1.0f,1.0f,-3.0f,
+		-1.0f,1.0f,-3.0f,
+		-1.0f,-1.0,-3.0f,
+		1.0f,-1.0f,-3.0f
+	};
+
+	const GLfloat rectangleColor[] = {
+		0.0f,0.0f,1.0f,
+		0.0f,0.0f,1.0f,
+		0.0f,0.0f,1.0f,
+		0.0f,0.0f,1.0f
+	};
+
+	glGenVertexArrays(1, &vao_rectangle);
+	glBindVertexArray(vao_rectangle);
+
+	glGenBuffers(1, &vbo_position_reactangle);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo_position_reactangle);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(rectangleVertices), rectangleVertices, GL_STATIC_DRAW);
+
+	glVertexAttribPointer(AMC_ATTRIBUTE_POSITION, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+	glEnableVertexAttribArray(AMC_ATTRIBUTE_POSITION);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+
+	glGenBuffers(1, &vbo_color_rectangle);
+	glBindBuffer(GL_ARRAY_BUFFER, vbo_color_rectangle);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(rectangleColor), rectangleColor, GL_STATIC_DRAW);
+
+	glVertexAttribPointer(AMC_ATTRIBUTE_COLOR, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+	glEnableVertexAttribArray(AMC_ATTRIBUTE_COLOR);
+	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	glBindVertexArray(0);

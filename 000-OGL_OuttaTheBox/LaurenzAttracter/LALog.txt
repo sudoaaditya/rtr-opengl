@@ -1,0 +1,9 @@
+File Created Successfully!!..
+
+ChoosePixelFormat Successful!(Index = 5
+SetPixelFormat Successful!!
+wglCreateContext Successful!!
+wglMakeCurrent Successful!!
+Initialization Successful!!..
+
+File Closed Successfully..

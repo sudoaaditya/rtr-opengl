@@ -1,0 +1,15 @@
+File created Successfully!!..
+
+Choose Pixel Format Successful!!..	{Index = 14}
+SetPixelFormat Successful!
+wglCreateContext Successsful!!..
+wglMakeCurrent Successful!.
+glewInit Successful!..
+Vertex Shader Compiled Successfully!!..
+Tessellation Control Shader Compiled Successfully!!..
+Tessellation Evaluation Shader Compiled Successfully!!..
+Fragment ShaderCompiled Successfully!!..
+Program Linkage Successful!!
+Initialization Successful!!!...
+
+File Closed Successfully!!..

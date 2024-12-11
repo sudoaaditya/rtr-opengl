@@ -1,0 +1,12 @@
+Log File Created Successfully!!!..
+
+ChoosePixelFormat Successful!!..
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurrent Successful!!..
+GLEW Initialization Successful!!..
+ERROR: 0:2: '' :  incorrect GLSL version: 460
+
+
+
+File Closed Successfully!!..

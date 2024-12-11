@@ -1,0 +1,9 @@
+
+Distances
+fdAB = 2.236068	fdBC = 2.000000	fdAC = 2.236068
+SemiPermeter = 3.236068
+Area Of Triangles = 1.999999
+Radius Of InCircle = 0.618034
+Origin Of Incircle
+X Coord = 0.000000
+Y Coord = -0.381966

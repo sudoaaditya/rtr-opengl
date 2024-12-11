@@ -1,0 +1,3 @@
+#include"RCheader.h"
+IDB_MARBLE_BMP	BITMAP	"marble.bmp"
+

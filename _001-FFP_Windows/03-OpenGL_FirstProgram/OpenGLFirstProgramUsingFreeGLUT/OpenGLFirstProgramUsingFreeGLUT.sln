@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLFirstProgramUsingFreeGLUT", "OpenGLFirstProgramUsingFreeGLUT.vcxproj", "{A95F6247-CC4E-4AC2-8CF4-D50D58677798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Debug|x64.ActiveCfg = Debug|x64
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Debug|x64.Build.0 = Debug|x64
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Debug|x86.ActiveCfg = Debug|Win32
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Debug|x86.Build.0 = Debug|Win32
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Release|x64.ActiveCfg = Release|x64
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Release|x64.Build.0 = Release|x64
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Release|x86.ActiveCfg = Release|Win32
+		{A95F6247-CC4E-4AC2-8CF4-D50D58677798}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8A6EC37-13DA-45D9-83F3-0350715EE8BB}
+	EndGlobalSection
+EndGlobal

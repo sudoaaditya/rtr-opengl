@@ -1,0 +1,10 @@
+Log Created Successful!!
+
+ChoosePixelFormat Successful!!..	(Index = 14)
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurrent Successful!!..
+Font Screated Successfully!
+Initialization Successful!!!...
+
+File Closed Successfully..

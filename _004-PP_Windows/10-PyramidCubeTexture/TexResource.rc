@@ -1,0 +1,6 @@
+#include"ResHeader.h"
+
+ID_STONE BITMAP Stone.bmp
+
+ID_KUNDALI BITMAP Vijay_Kundali.bmp
+

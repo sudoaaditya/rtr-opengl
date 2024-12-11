@@ -1,0 +1,7 @@
+Log.txt is sucessfully opened
+Compute Shader Compilation Log : No Errors
+Compute Shader program Link Log : No Errors
+Vertex Shader Compilation Log : No Errors
+Fragment Shader Compilation Log : No Errors
+Shader program Link Log : No Errors
+Log.txt is sucessfully closed

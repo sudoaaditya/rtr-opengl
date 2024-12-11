@@ -1,0 +1,3 @@
+#include"header.h"
+IDB_EARTH	BITMAP	"earth.bmp"
+IDB_STAR	BITMAP	"star.bmp"

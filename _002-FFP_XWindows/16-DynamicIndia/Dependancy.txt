@@ -1,0 +1,97 @@
+Commands to install OpenAL::
+
+sudo apt-get install libopenal-dev
+
+
+Command to install Alut ::
+
+sudo apt-get install libalut-dev
+
+
+
+Program ::
+
+void createAudioContext(void) { //Call this in Initialize
+    void uninitialize(void);
+
+    device = alcOpenDevice(NULL);
+    if (device == NULL)
+    {
+        printf(" ERROR : Cannot Open Audio Context../n Exiting NOw!\n");
+        uninitialize();
+        exit(0);
+    }
+ 
+    //Create a context
+    context=alcCreateContext(device,NULL);
+ 
+    //Set active context
+    alcMakeContextCurrent(context);
+    
+        //load the wave file
+    alutLoadWAVFile((ALbyte*)"VandeMataram.wav",&alFormatBuffer, (void **) &alBuffer,(ALsizei*)&alBufferLen, &alFreqBuffer, &alLoop);
+    
+    //create a source
+    alGenSources(1, &alSource);
+    
+    //create  buffer
+    alGenBuffers(1, &alSampleSet);
+    
+    //put the data into our sampleset buffer
+    alBufferData(alSampleSet, alFormatBuffer, alBuffer, alBufferLen, alFreqBuffer);
+    
+    //assign the buffer to this source
+    alSourcei(alSource, AL_BUFFER, alSampleSet);
+    
+    //release the data
+    alutUnloadWAV(alFormatBuffer, alBuffer, alBufferLen, alFreqBuffer);
+}
+
+void PlaySound() {  //Call in display but once
+
+    alSourcei(alSource,AL_LOOPING,AL_TRUE);    
+    //play
+    alSourcePlay(alSource);
+}
+
+void StopSound() { 
+    alSourceStop(alSource);
+}
+
+void deleteAudioContext() { //Call it in uninitialize.
+
+    alDeleteSources(1,&alSource);
+    
+    //delete our buffer
+    alDeleteBuffers(1,&alSampleSet);
+    
+    context=alcGetCurrentContext();
+    
+    //Get device for active context
+    device=alcGetContextsDevice(context);
+    
+    //Disable context
+    alcMakeContextCurrent(NULL);
+    
+    //Release context(s)
+    alcDestroyContext(context);
+    
+    //Close device
+    alcCloseDevice(device);
+}
+
+
+// PARAMETERS
+
+//Audio Pars
+ALCcontext *context;
+ALCdevice *device;
+char*     alBuffer;             //data for the buffer
+ALenum alFormatBuffer;    //buffer format
+ALsizei   alFreqBuffer;       //frequency
+long       alBufferLen;        //bit depth
+ALboolean    alLoop;         //loop
+unsigned int alSource;      //source
+unsigned int alSampleSet;
+
+

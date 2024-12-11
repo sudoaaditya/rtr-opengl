@@ -1,0 +1,11 @@
+Lof Created SuccessFully!!..
+
+ChoosePixelFormat Successful !!..(Indx = 5)
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurrent Successful!!..
+Texture Kundali Loaded Successfully!!..=
+Texture Pyramid Loaded Successfully!!..=
+Initialization Successful!!..
+
+File Closed Successfully..

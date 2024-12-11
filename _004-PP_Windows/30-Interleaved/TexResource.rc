@@ -1,0 +1,3 @@
+#include"TexHeader.h"
+
+ID_MARBLE BITMAP Marble.bmp

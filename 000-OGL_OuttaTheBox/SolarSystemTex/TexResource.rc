@@ -1,0 +1,20 @@
+
+#include"TexResHeader.h"
+
+ID_GALAXY BITMAP .\Textures\Galaxy.bmp
+
+ID_EARTH BITMAP .\Textures\Earth.bmp
+ID_SUN BITMAP .\Textures\Sun.bmp
+ID_SATURN BITMAP .\Textures\Saturn.bmp
+ID_VENUS BITMAP .\Textures\Venus.bmp
+ID_MARS BITMAP .\Textures\Mars.bmp
+ID_MERCURY BITMAP .\Textures\Mercury.bmp
+ID_JUPITER BITMAP .\Textures\Jupiter.bmp
+ID_NEPTUNE BITMAP .\Textures\Neptune.bmp
+ID_URANUS BITMAP .\Textures\Uranus.bmp
+ID_SATRINGS BITMAP .\Textures\SatRings.bmp
+
+
+ID_MUSIC WAVE .\Music\GOT_NK_back.wav
+
+

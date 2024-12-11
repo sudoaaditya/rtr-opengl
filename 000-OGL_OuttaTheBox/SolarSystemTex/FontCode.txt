@@ -1,0 +1,62 @@
+//Variables!.
+unsigned int listBaseOne;
+
+//Font Creation Call
+    listBaseOne = CreateBitmapFont("Trebuchet MS", 60, 25);
+    if(listBaseOne == 0) {
+        return(-5);
+    }
+    else {
+        fprintf(fptr, "Font One Created Successfully!\n");
+    }
+
+//functions
+unsigned int CreateBitmapFont(char *fontName, int fontWd, int fontHt) {
+    
+    HFONT hMyFont;
+    unsigned int fontBase;
+
+    fontBase = glGenLists(96);
+
+		hMyFont = CreateFont(fontWd, fontHt, 0, 0, FW_BOLD,
+			NULL, NULL, NULL, NULL,
+			NULL, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, ANTIALIASED_QUALITY,
+			TEXT("Trebuchet MS"));
+
+
+    if(!hMyFont){
+        return(0);
+    }
+
+    SelectObject(ghdc, hMyFont);
+    wglUseFontBitmaps(ghdc, 32, 96, fontBase);
+
+    return(fontBase);
+
+}
+
+
+void RenderFont(GLfloat posX, GLfloat posY, GLfloat posZ, unsigned int listBase, char *str, GLfloat *colArr) {
+
+    glDisable(GL_LIGHTING);
+    glDisable(GL_TEXTURE_2D);
+    if(listBaseOne == 0 || (!str)) {
+        return;
+    }
+
+    glColor4f(colArr[0], colArr[1], colArr[2], colArr[3]);
+    glRasterPos3f(posX, posY, posZ);
+
+    glPushAttrib(GL_LIST_BIT);
+        glListBase(listBase - 32);
+        glCallLists((int)strlen(str), GL_UNSIGNED_BYTE, str);
+    glPopAttrib();
+
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glEnable(GL_LIGHTING);
+    glEnable(GL_TEXTURE_2D);
+}
+
+//Call to functions like this
+ RenderFont(-5.5f, -2.8f, 6.0f, listBaseTwo, "& Still Most of the People on This Planet Are Able to Carry EGO, ", fColorArr);
+        RenderFont(-5.5f, -3.3f, 6.0f, listBaseTwo, "BIGGER Than This Entire UNIVERSE!!. Ironic, isn't it? ", fColorArr);

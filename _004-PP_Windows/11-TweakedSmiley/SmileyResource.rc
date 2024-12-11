@@ -1,0 +1,4 @@
+#include"TexResHeader.h"
+
+ID_SMILEY BITMAP Smiley.bmp
+

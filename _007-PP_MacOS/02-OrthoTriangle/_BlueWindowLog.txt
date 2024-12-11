@@ -1,0 +1,9 @@
+Log File Created Successfully!!..
+
+Pixel Format Acquired!!..
+OpenGL Context Acquired!!..
+
+OpenGLVersion:: 4.1 INTEL-12.9.22
+ ShadingLanguageVersion:: 4.10
+
+Log File Closed Successfully!!..

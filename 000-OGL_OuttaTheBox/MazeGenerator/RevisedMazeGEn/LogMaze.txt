@@ -1,0 +1,85 @@
+File Created Successfully!!..
+
+ChoosePixelFormat Successful!(Index = 8
+SetPixelFormat Successful!!
+wglCreateContext Successful!!
+wglMakeCurrent Successful!!
+Initialization Successful!!..(15,15)
+TEMP SIZE : 2	 1
+X:0	Y:1	Visit:0
+TEMP SIZE : 2	 1
+X:0	Y:2	Visit:0
+TEMP SIZE : 2	 0
+X:1	Y:2	Visit:0
+TEMP SIZE : 3	 2
+X:1	Y:3	Visit:0
+TEMP SIZE : 3	 2
+X:0	Y:3	Visit:0
+TEMP SIZE : 1	 0
+X:0	Y:4	Visit:0
+TEMP SIZE : 2	 1
+X:0	Y:5	Visit:0
+TEMP SIZE : 2	 1
+X:0	Y:6	Visit:0
+TEMP SIZE : 2	 1
+X:0	Y:7	Visit:0
+TEMP SIZE : 2	 0
+X:1	Y:7	Visit:0
+TEMP SIZE : 3	 0
+X:1	Y:6	Visit:0
+TEMP SIZE : 2	 0
+X:1	Y:5	Visit:0
+TEMP SIZE : 2	 1
+X:2	Y:5	Visit:0
+TEMP SIZE : 3	 0
+X:2	Y:4	Visit:0
+TEMP SIZE : 3	 0
+X:2	Y:3	Visit:0
+TEMP SIZE : 2	 0
+X:2	Y:2	Visit:0
+TEMP SIZE : 2	 0
+X:2	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:3	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:4	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:5	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:6	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:7	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:8	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:9	Y:1	Visit:0
+TEMP SIZE : 3	 1
+X:10	Y:1	Visit:0
+TEMP SIZE : 3	 2
+X:10	Y:2	Visit:0
+TEMP SIZE : 3	 2
+X:9	Y:2	Visit:0
+TEMP SIZE : 2	 1
+X:8	Y:2	Visit:0
+TEMP SIZE : 2	 0
+X:8	Y:3	Visit:0
+TEMP SIZE : 3	 2
+X:7	Y:3	Visit:0
+TEMP SIZE : 3	 2
+X:6	Y:3	Visit:0
+TEMP SIZE : 3	 2
+X:5	Y:3	Visit:0
+TEMP SIZE : 3	 2
+X:4	Y:3	Visit:0
+TEMP SIZE : 3	 2
+X:3	Y:3	Visit:0
+TEMP SIZE : 2	 0
+X:3	Y:2	Visit:0
+TEMP SIZE : 1	 0
+X:4	Y:2	Visit:0
+TEMP SIZE : 1	 0
+X:5	Y:2	Visit:0
+TEMP SIZE : 1	 0
+X:6	Y:2	Visit:0
+TEMP SIZE : 1	 0
+X:7	Y:2	Visit:0

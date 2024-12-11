@@ -1,0 +1,7 @@
+ChoosePixelFormat Successful !!..(Indx = 8)
+SetPixelFormat Successful!!..
+wglCreateContext Successful!!..
+wglMakeCurrent Successful!!..
+initialize Successful!!..
+
+File Closed Successfully..

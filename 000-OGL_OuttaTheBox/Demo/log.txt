@@ -1,0 +1,9 @@
+Log file successfully created
+ChoosePixelFormat function
+SetPixelFormat function
+WglCreateContext function
+wglMakeCurrent functionSuccessfully loaded texture :wood
+Successfully loaded texture :Ball
+Success in initialization
+Toggle function
+Log file is closed

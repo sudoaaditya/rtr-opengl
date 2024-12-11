@@ -1,0 +1,5 @@
+#include"MyHeader.h"
+
+ID_WOOD BITMAP wood2.bmp
+ID_BALL1 BITMAP Ball.bmp
+
